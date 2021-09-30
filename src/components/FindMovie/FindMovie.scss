@@ -1,0 +1,23 @@
+.form {
+  &__name {
+    border: 1px solid #C0C0C0;
+    height: 30px;
+    width: 300px;
+    padding-left: 10px;
+  }
+
+  &__button {
+    margin-left: 20px;
+    padding: 10px 30px;
+    border: 0;
+    background-color: #0000CD;
+    color: #fff;
+    transition: box-shadow 0.3s;
+    cursor: pointer;
+
+    &:hover {
+      box-shadow: 0px 0px 24px 8px rgba(42, 43, 191, 0.17);
+    }
+  }
+
+}

@@ -1,0 +1,54 @@
+.details {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 70px 150px;
+  display: flex;
+  z-index: 999;
+  background-color: #fff;
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+  }
+
+  &__language {
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    margin: 60px 0 40px;
+    font-size: 30px;
+    font-weight: 600;
+
+    &-original {
+      font-size: 17px;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__span {
+    font-weight: 600;
+  }
+
+  &__popularity {
+    margin-bottom: 20px;
+  }
+
+  &__date {
+    margin-bottom: 20px;
+  }
+
+  &__rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  &__description {
+    max-width: 500px;
+  }
+}
