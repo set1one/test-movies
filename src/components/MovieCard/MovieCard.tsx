@@ -27,6 +27,9 @@ export const MovieCard: React.FC<Props> = (props) => {
         className="card__image"
         alt="poster_path"
       />
+      {movie.adult
+        ? <div className="card__adult">+18</div>
+        : null}
       <div className="card__body">
         <div className="card__top">
           <h5 className="card__title">{movie.title}</h5>

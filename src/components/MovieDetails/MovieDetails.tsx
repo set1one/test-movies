@@ -48,16 +48,16 @@ export const MovieDetails: React.FC<Props> = (props) => {
               <span className="details__span">Overview:</span>
               {` ${movieDetails.overview}`}
             </p>
+            <button
+              type="button"
+              className="details__button"
+              onClick={() => {
+                setIsDetails(false);
+              }}
+            >
+              Go back
+            </button>
           </div>
-          <button
-            type="button"
-            className="card__button"
-            onClick={() => {
-              setIsDetails(false);
-            }}
-          >
-            Go back
-          </button>
         </div>
       )}
     </div>
