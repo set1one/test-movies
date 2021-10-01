@@ -1,9 +1,12 @@
-# React TypeScript Starter Pack
+# Test task Movie List
 
-To use this template click `Use this template`
+[DEMO LINK](https://set1one.github.io/test-task/)
 
-### Available Scripts
+#Technology used:
 
-`Deploy` - available to deploy your application to gh-pages
+* React
+* React Hooks
+* Typescript
+* HTML, CSS
 
-`SCSS Preprocessor` - available to write your styles with modern style language
+Time: 6hr
