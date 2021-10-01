@@ -1,6 +1,7 @@
 # Test task Movie List
 
-[DEMO LINK](https://set1one.github.io/test-task/)
+ [DEMO LINK](https://set1one.github.io/test-movies)
+
 
 #Technology used:
 
